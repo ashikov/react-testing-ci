@@ -1,3 +1,4 @@
+# BEGIN
 name: Main
 
 on:
@@ -30,3 +31,5 @@ jobs:
         with:
           fail_ci_if_error: true
           verbose: true
+      # check result in https://app.codecov.io/gh/githubuser/reponame/
+# END
